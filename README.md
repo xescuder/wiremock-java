@@ -156,6 +156,22 @@ After previous step now, we're going to create stub mappings from requests it re
 
 Now we've a determinist response, to be used from our tests!
 
+### Execute all tests
+
+You can execute all tests from maven using:
+
+```shell
+mvn test
+```
+
+Finally you can generate and see results in Allure server with:
+
+```shell
+mvn allure:report
+mvn allure:serve
+```
+
+![Allure results](docs/assets/allure_results.png)
 
 <!-- ROADMAP -->
 ## Roadmap
