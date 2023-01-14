@@ -1,0 +1,32 @@
+{
+  "id" : "8bb821a5-c84e-4194-a78e-fa7694685a77",
+  "name" : "api_users",
+  "request" : {
+    "url" : "/api/users?page=1",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"page\":1,\"per_page\":6,\"total\":12,\"total_pages\":2,\"data\":[{\"id\":1,\"email\":\"george.bluth@reqres.in\",\"first_name\":\"George\",\"last_name\":\"Bluth\",\"avatar\":\"https://reqres.in/img/faces/1-image.jpg\"},{\"id\":2,\"email\":\"janet.weaver@reqres.in\",\"first_name\":\"Janet\",\"last_name\":\"Weaver\",\"avatar\":\"https://reqres.in/img/faces/2-image.jpg\"},{\"id\":3,\"email\":\"emma.wong@reqres.in\",\"first_name\":\"Emma\",\"last_name\":\"Wong\",\"avatar\":\"https://reqres.in/img/faces/3-image.jpg\"},{\"id\":4,\"email\":\"eve.holt@reqres.in\",\"first_name\":\"Eve\",\"last_name\":\"Holt\",\"avatar\":\"https://reqres.in/img/faces/4-image.jpg\"},{\"id\":5,\"email\":\"charles.morris@reqres.in\",\"first_name\":\"Charles\",\"last_name\":\"Morris\",\"avatar\":\"https://reqres.in/img/faces/5-image.jpg\"},{\"id\":6,\"email\":\"tracey.ramos@reqres.in\",\"first_name\":\"Tracey\",\"last_name\":\"Ramos\",\"avatar\":\"https://reqres.in/img/faces/6-image.jpg\"}],\"support\":{\"url\":\"https://reqres.in/#support-heading\",\"text\":\"To keep ReqRes free, contributions towards server costs are appreciated!\"}}",
+    "headers" : {
+      "Date" : "Sat, 14 Jan 2023 14:30:31 GMT",
+      "Content-Type" : "application/json; charset=utf-8",
+      "X-Powered-By" : "Express",
+      "Access-Control-Allow-Origin" : "*",
+      "Etag" : "W/\"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8\"",
+      "Via" : "1.1 vegur",
+      "Cache-Control" : "max-age=14400",
+      "CF-Cache-Status" : "HIT",
+      "Age" : "153",
+      "Accept-Ranges" : "bytes",
+      "Report-To" : "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=emLHjVF2e4yXxeSCbXs6E1242khN2aeNnKwKw4H9zdxqCkAs3MiPk%2BfvTSUaezsLAySDH%2BjZi1snxp6bMmDiUf9UD9Pl7cVAOyoKwKJmtod2GNr%2FRRO9MORcFw%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+      "NEL" : "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+      "Vary" : "Accept-Encoding",
+      "Server" : "cloudflare",
+      "CF-RAY" : "789711ef9df6385d-MAD"
+    }
+  },
+  "uuid" : "8bb821a5-c84e-4194-a78e-fa7694685a77",
+  "persistent" : true,
+  "insertionIndex" : 2
+}
